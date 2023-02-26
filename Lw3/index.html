@@ -1,47 +1,75 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
+
   <head>
+    <title>My Blog</title>
     <meta charset="utf-8">
-    <title>Blog</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel = "stylesheet" type="text/css" href="./css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="./img/favicon.ico">
   </head>
-  <body>
-    <header>
-      <div>
-        <span>Escape.</span>
-        <nav>
-          <a href="index.html">HOME</a>
-          <a href="">CATEGORIES</a>
-          <a href="the-road-ahead.html">ABOUT</a>
-          <a href="">CONTACT</a>
-        </nav>
+
+  <body class="page">
+    <header class="header">
+      <div class="header__content">
+        <div class="header__block">
+          <a href="" class="header__logo">
+            <span>Escape.</span>
+          </a>
+        </div>
+        <div class="header__block">
+          <nav class="header__menu">
+            <a href="" class="header__menu-item">
+              <span>HOME</span>
+            </a>
+            <a href="" class="header__menu-item">
+              <span>CATEGORIES</span>
+            </a>
+            <a href="" class="header__menu-item">
+              <span>ABOUT</span>
+            </a>
+            <a href="" class="header__menu-item">
+              <span>CONTACT</span>
+            </a>
+          </nav>
+        </div>
       </div>
     </header>
 
-    <div>
-      <div>
+    <div class="page__content">
+      <div class="main__block">
         <div>
-          <h1>Let's do it together</h1>
-          <p>We travel the world in search of stories. Come along for the ride.</p>
-          <button>View Latest Posts</button>
+          <h1 class="main__block-title">Let's do it together</h1>
+          <p class="main__block-label">We travel the world in search of stories. Come along for the ride.</p>
+          <button class="main__block-button">View Latest Posts</button>
         </div>
-        <img>
+        <div class="main__block-background"></div>
       </div>
 
-      <div>
-        <div>
-          <a href="">Nature</a>
-          <a href="">Photography</a>
-          <a href="">Relaxation</a>
-          <a href="">Vacation</a>
-          <a href="">Travel</a>
-          <a href="">Adventure</a>
+      <div class="tag__block">
+        <div class="tag__list">
+          <a href="" class="tag__list-item">
+            <span>Nature</span>
+          </a>
+          <a href="" class="tag__list-item">
+            <span>Photography</span>
+          </a>
+          <a href="" class="tag__list-item">
+            <span>Relaxation</span>
+          </a>
+          <a href="" class="tag__list-item">
+            <span>Vacation</span>
+          </a>
+          <a href="" class="tag__list-item">
+            <span>Travel</span>
+          </a>
+          <a href="" class="tag__list-item">
+            <span>Adventure</span>
+          </a>
         </div>
       </div>
 
-      <div>
+      <div class="">
         <div>
           <div>
             <h2>Featured Posts</h2>
@@ -49,14 +77,14 @@
           <div>
             <div>
               <div>
-                <img src="./img/featured_post_first.png">
+                <img src="./img/featured_post_first.png" alt="">
                 <span>Photography</span>
               </div>
               <div>
                 <span>The Road Ahead</span>
                 <p>The road ahead might be paved - it might not be.</p>
                 <div>
-                  <img src="./img/mat_vogels_icon.jpg">
+                  <img src="./img/user_icon_mat_vogels.jpg" alt="">
                   <span>Mat Vogels</span>
                   <span>September 25, 2015</span>
                 </div>
@@ -64,14 +92,14 @@
             </div>
             <div>
               <div>
-                <img src="./img/featured_post_second.png">
+                <img src="./img/featured_post_second.png" alt="">
                 <span>Adventure</span>
               </div>
               <div>
                 <span>From Top Down</span>
                 <p>Once a year, go someplace you’ve never been before.</p>
                 <div>
-                  <img src="./img/william_wong_icon.jpg">
+                  <img src="./img/user_icon_william_wong.jpg" alt="">
                   <span>William Wong</span>
                   <span>September 25, 2015</span>
                 </div>
@@ -87,7 +115,7 @@
           <div>
             <div>
               <div>
-                <img src="./img/still_standing_tall_preview.jpg">
+                <img src="./img/still_standing_tall.jpg" alt="">
                 <span>Nature</span>
               </div>
               <div>
@@ -95,7 +123,7 @@
                 <p>Life begins at the end of your comfort zone.</p>
               </div>
               <div>
-                <img src="./img/william_wong_icon.jpg">
+                <img src="./img/user_icon_william_wong.jpg" alt="">
                 <span>William Wong</span>
                 <span>9/25/2015</span>
               </div>
@@ -103,7 +131,7 @@
 
             <div>
               <div>
-                <img src="./img/sunny_side_up_preview.png">
+                <img src="./img/sunny_side_up.png" alt="">
                 <span>Photography</span>
               </div>
               <div>
@@ -111,7 +139,7 @@
                 <p>No place is ever as bad as they tell you it’s going to be.</p>
               </div>
               <div>
-                <img src="./img/mat_vogels_icon.jpg">
+                <img src="./img/user_icon_mat_vogels.jpg" alt="">
                 <span>Mat Vogels</span>
                 <span>9/25/2015</span>
               </div>
@@ -119,7 +147,7 @@
 
             <div>
               <div>
-                <img src="./img/water_falls_preview.png">
+                <img src="./img/water_falls.png" alt="">
                 <span>Relaxation</span>
               </div>
               <div>
@@ -127,7 +155,7 @@
                 <p>We travel not to escape life, but for life not to escape us.</p>
               </div>
               <div>
-                <img src="./img/mat_vogels_icon.jpg">
+                <img src="./img/user_icon_mat_vogels.jpg" alt="">
                 <span>Mat Vogels</span>
                 <span>9/25/2015</span>
               </div>
@@ -135,7 +163,7 @@
 
             <div>
               <div>
-                <img src="./img/through_the_mist_preview.png">
+                <img src="./img/through_the_mist.png" alt="">
                 <span>Vacation</span>
               </div>
               <div>
@@ -143,7 +171,7 @@
                 <p>Travel makes you see what a tiny place you occupy in the world.</p>
               </div>
               <div>
-                <img src="./img/william_wong_icon.jpg">
+                <img src="./img/user_icon_william_wong.jpg" alt="">
                 <span>William Wong</span>
                 <span>9/25/2015</span>
               </div>
@@ -151,7 +179,7 @@
 
             <div>
               <div>
-                <img src="./img/awaken_early_preview.png">
+                <img src="./img/awaken_early.png" alt="">
                 <span>Vacation</span>
               </div>
               <div>
@@ -159,7 +187,7 @@
                 <p>Not all those who wander are lost.</p>
               </div>
               <div>
-                <img src="./img/mat_vogels_icon.jpg">
+                <img src="./img/user_icon_mat_vogels.jpg" alt="">
                 <span>Mat Vogels</span>
                 <span>9/25/2015</span>
               </div>
@@ -167,7 +195,7 @@
 
             <div>
               <div>
-                <img src="./img/try_it_always_preview.png">
+                <img src="./img/try_it_always.png" alt="">
                 <span>Travel</span>
               </div>
               <div>
@@ -175,7 +203,7 @@
                 <p>The world is a book, and those who do not travel read only one page.</p>
               </div>
               <div>
-                <img src="./img/mat_vogels_icon.jpg">
+                <img src="./img/user_icon_mat_vogels.jpg" alt="">
                 <span>Mat Vogels</span>
                 <span>9/25/2015</span>
               </div>
@@ -187,17 +215,31 @@
 
     <br>
 
-    <footer>
-      <div>
-        <span>Escape.</span>
-        <div>
-          <a href="index.html">HOME</a>
-          <a href="">CATEGORIES</a>
-          <a href="">ABOUT</a>
-          <a href="">CONTACT</a>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__block">
+          <a href="" class="footer__logo">
+            <span>Escape.</span>
+          </a>
+        </div>
+        <div class="footer__block">
+          <nav class="footer__menu">
+            <a href="" class="footer__menu-item">
+              <span>HOME</span>
+            </a>
+            <a href="" class="footer__menu-item">
+              <span>CATEGORIES</span>
+            </a>
+            <a href="" class="footer__menu-item">
+              <span>ABOUT</span>
+            </a>
+            <a href="" class="footer__menu-item">
+              <span>CONTACT</span>
+            </a>
+          </nav>
         </div>
       </div>
-      <img src="./img/footer_background.png">
     </footer>
+
   </body>
 </html>
